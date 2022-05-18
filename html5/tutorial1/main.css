@@ -14,7 +14,7 @@ thead{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: xx-large;
     background: rgb(142,47,69);
-background: linear-gradient(90deg, rgba(142,47,69,1) 0%, rgba(64,64,230,1) 50%, rgba(0,212,255,1) 100%); 
+    background: linear-gradient(90deg, rgba(142,47,69,1) 0%, rgba(64,64,230,1) 50%, rgba(0,212,255,1) 100%); 
     text-align: center;
 }
 tbody{
