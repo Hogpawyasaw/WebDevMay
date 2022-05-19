@@ -39,8 +39,5 @@ footer{
     padding: 1px;
 }
 main#gallery{
-    background-color: azure;
-}
-main > img{
-    
+    background-color: rgb(53, 189, 189);
 }
