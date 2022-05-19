@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="tut3.css">
+</head>
+<body>
+    <main id="login-container">
+        <h1>Login page</h1>
+        <form method="post" action="/save">
+            <label for="username">Username</label><br/>
+            <input type="text" name="username" placeholder="Enter your username" value="Username" required/> <br/>
+            <label for="password">Password</label><br/>
+            <input type="password" name="password" placeholder="Enter your password"/> <br/>
+            <label for="email">Email</label><br/>
+            <input type="email" name="email" placeholder="Email here"/><br/>
+            <label for="date">Date</label><br/>
+            <input type="date"/><br/>
+            <br/>
+            <input type="text" readonly placeholder="Reading only"/><br/>
+            <input type="hidden" value="token845416856eraf5a6418" readonly required/>
+            
+            <!-- <input type="button" value="Send"/> -->
+            <button>Send</button>
+        </form>
+    </main>
+</body>
+</html>

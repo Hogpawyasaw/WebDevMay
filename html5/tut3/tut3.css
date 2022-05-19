@@ -1,0 +1,46 @@
+
+nav{
+    background-color: rgb(176, 173, 173);
+}
+li{
+    display: inline;
+    padding: 2px;
+}
+ul{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+#home{
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 1px;
+}
+article > img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 15px;
+}
+#Blog{
+    display: flex;
+    width: auto;
+}
+footer{
+    background-color: beige;
+    color: rgb(0, 0, 0);
+    padding: 1px;
+    text-align: center;
+}
+#login-container{
+    background-color: rgb(173, 220, 204);
+    padding: 1px;
+}
+main#gallery{
+    background-color: azure;
+}
+main > img{
+    
+}
