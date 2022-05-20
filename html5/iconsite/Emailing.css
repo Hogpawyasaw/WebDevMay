@@ -17,7 +17,7 @@ i{
 }
 
 #NavigationB{
-    background-color: darkblue;
+    background-color: rgb(57, 57, 110);
     display: flex;
     width: auto;
     text-align: center;
@@ -25,5 +25,5 @@ i{
 }
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: darkblue;
+    color: rgb(57, 57, 110);
 }
