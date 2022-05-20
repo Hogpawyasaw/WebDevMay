@@ -11,20 +11,20 @@
 </head>
 <body>
     <header>
-        <a href="Emailing.html" title="Homepage"><img src="./images/Screenshot 2022-05-19 at 15-30-51 Font Awesome.png" height="100"/></a>
-        <h1>Emailing.HTML 1</h1>
-        <form method="post" action="/save">
-            <label for="username">Username</label>
-            <input type="text" name="username" placeholder="Enter your username" required/> <br/>
-            <label for="password">Password</label>
-            <input type="password" name="password" placeholder="Enter your password" required/><br/>
-            <input type="hidden" value="token845416856eraf5a6418" readonly required/>
-            
-            <button>Logg in</button>
-        </form>
+        <div class="flex-container">
+            <a href="Emailing.html" title="Homepage"><img src="./images/Screenshot 2022-05-19 at 15-30-51 Font Awesome.png" height="100"/></a>
+            <h1>Emailing 1.0</h1>
+            <form id="Loggin-form" method="post" action="/save">
+                <label for="username">Username:</label>
+                <input type="text" name="username" placeholder="Enter your username" required/> <br/>
+                <label for="password">Password:</label>
+                <input type="password" name="password" placeholder="Enter your password" required/><br/>
+                <button><a title="Logg in">Logg in</a></button>
+            </form>
+        </div>    
     </header>
     <footer>
-        <ul id="NavigationB">
+        <ul id="Footer-bar">
             <li><i class="fa-brands fa-mailchimp"></i><a href="#" title="MailChimp">MailChimp</a></li><br>
             <li><i class="fa-solid fa-share"></i><a href="#" title="Share">Share</a></li><br>
             <li><i class="fa-solid fa-envelope"></i><a href="#" title="Email">Email</a></li><br>
