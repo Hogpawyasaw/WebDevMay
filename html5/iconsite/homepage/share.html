@@ -4,9 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="share.css">
+    <link rel="icon" type="image/x-icon" href="./images/Screenshot 2022-05-19 at 15-30-51 Font Awesome.png" />
     <title>Share 1</title>
 </head>
 <body>
-    <h1>Sharing 1</h1>
+    <header>
+        <a href="Emailing.html" title="Homepage"><img src="./images/Screenshot 2022-05-19 at 15-30-51 Font Awesome.png" height="150" /></a>
+        <div>
+            <h1>Sharing.HTML 1</h1>
+            <form method="post" action="/save">
+                <label for="email">Send to:</label>
+                <input type="text" name="email" placeholder="Enter email" required /> <br/>
+                <label for="text">Subject:</label>
+                <input type="text" placeholder="Enter subject" required /><br/>
+                <input type="hidden" value="token845416856eraf5a6418" readonly required/>
+                <button>Share</button>
+            </form>
+        </div>
+    </header>
+    <footer>
+        <ul id="NavigationFooter">
+            <li><i class="fa-brands fa-mailchimp"></i><a href="Emailing.html" title="Homepage">MailChimp</a></li><br/>
+            <li><i class="fa-solid fa-share"></i><a href="share.html" title="Share">Share</a></li><br/>
+            <li><i class="fa-solid fa-envelope"></i><a href="#" title="Email">Email</a></li><br/>
+            <li><i class="fa-solid fa-reply"></i><a href="#" title="Reply">Reply</a></li><br/>
+            <li><i class="fa-solid fa-reply-all"></i><a href="#" title="Reply All">Reply All</a></li><br/>
+
+        </ul>
+    </footer>
 </body>
 </html>
