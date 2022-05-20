@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+li{
+    list-style-type: none;
+    text-align: left;
+    padding-left: 0px;
+    display: inline;
+}
+ul{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: red;
+    font-family: Roboto;
+}
+.active{
+    color: green;
+}
+.nav-item{
+    background-color: aliceblue;
+}
+#navbar{
+    background-color: rgb(1, 1, 1);
+}
+i{
+    color: rgb(250, 250, 250);
+}
