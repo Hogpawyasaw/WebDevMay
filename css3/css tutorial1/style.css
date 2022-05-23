@@ -1,0 +1,44 @@
+/* selectbytagname: */
+fieldset{
+    /* border-color: rgb(239, 11, 11);
+    border-style: dotted;
+    border-width: 1px; */
+    /* border: 1px dashed brown;
+    border-top: 3px dashed blue;
+    border-bottom: 5px dotted green;
+    border-left: 10px dotted yellow; */
+    /* border-image: url(https://sp-images.summitpost.org/524466.jpg?auto=format&fit=max&h=800&ixlib=php-2.1.1&q=35&s=b30b0b2820fdefea1ab0d4b93c347051) 6% fill;
+    border-width: 10px;
+    border-style: solid;
+    width: 650px;
+    height: 350px; */
+}
+
+/* selectbyid */
+/* #main{
+    border: 2px solid blueviolet;
+} */
+
+
+/* selectbyattributename */
+/* option[value="GTX1060"]{
+    background-color: rgb(246, 16, 16);
+    color: aqua;
+}
+label[name="computer3"]{
+    color: rgb(205, 82, 38);
+}
+label[name="computer4"]{
+    color: aqua;
+} */
+
+/* selectbyclass */
+/* .container{
+    border: 2px solid green
+} */
+
+/* Backgroundimg position*/
+body{
+    background-image: url(https://longwoodgardens.org/sites/default/files/highlight_images/130366.jpg);
+    background-size: cover;
+}
