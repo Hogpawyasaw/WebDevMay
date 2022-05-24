@@ -1,0 +1,142 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* header related */
+header{
+    width: auto;
+    background-color: rgb(184, 184, 184);
+    padding: 10px;
+    margin: 0px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+} 
+header > .logontable{
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+}
+header > .intronrest{
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+}
+header > .h1np{
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+    padding: 10px;
+}
+a{
+    color: rgb(0, 0, 0);
+}
+h2{
+    width: 405px;
+}
+.boxheader{
+    background-color: grey;
+    text-align: center;
+    margin: 0;
+    width: 400px;
+    height: 150px;
+}
+/* end header related */
+
+/* body related */
+.boxcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.boxcontainer > .services{
+    display: flex;
+    justify-content: space-evenly;
+}
+.boxcontainer > .recentwork{
+    display: flex;
+    justify-content: space-evenly;
+}
+.boxcontainer > .twitterbox{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+    /* 6 info boxes */
+.service1{
+    background: grey;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.service2{
+    background: grey;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.service3{
+    background: grey;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.recentwork1{
+    background: grey;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.recentwork2{
+    background: grey;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.recentwork3{
+    background: grey;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+    /* 6 info boxes */
+.twitterbox > p{
+    background-color: grey;
+    height: 80px;
+    width: 1560px;
+}    
+/* end body related */
+
+/* footer related */
+footer{
+    background-color: grey;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
+footer > p{
+    color: rgb(0, 0, 0);
+    width: 250px;
+    text-align: right;
+}
+.footerlist{
+    margin-right: 50px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+/* end footer related */
