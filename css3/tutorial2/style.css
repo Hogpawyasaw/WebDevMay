@@ -1,0 +1,148 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color: rgb(209, 109, 181);
+    width: 200px;
+    height: 200px;
+    /* padding-top: 10px;
+    padding-left: 150px; */
+    padding: 0px 0px 0px;
+    outline: 2px solid greenyellow;
+    border: 5px solid red;
+
+}
+.container > p{
+    color: aqua;
+    font-size: x-large;
+    text-align: center;
+    text-shadow: 5px 4px 4px red;
+    transform: rotate(-10deg);
+    /* transform: scale3d(1.5, 3.5, 1.5); */
+    letter-spacing: 20px;
+    
+}
+.content{
+    width: auto;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+
+}
+.content > a{
+    color: aliceblue;
+    
+}
+.content > a:visited{
+    color: rgb(21, 0, 255);
+}
+.content > a:hover{
+    color: chartreuse;
+    text-decoration: none;
+
+}
+
+.menu > li{
+    list-style-type: none;
+    padding: 5px;
+    display: inline;
+    
+}
+/* when hovering over with mouse css */
+.menu > li:hover{
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+    padding: 5px;
+    text-transform: lowercase;
+}
+.main{
+    text-align: center;
+    padding: 10px;
+
+}
+
+
+.main > #user_records{
+    /* center your tabel code */
+    margin: 0 auto;
+    /* margin-right: auto;
+    margin-left: auto; */
+    /* center your tabel code */
+    outline: 3px solid red;
+}
+
+th, td{
+    border: 2px solid black;
+    padding: 0px;
+
+}
+th{
+    background-color: darkgreen;
+    color: aliceblue;
+}
+
+
+
+#user_records > tbody > tr{
+    background-color: darkslategray;
+    color: blanchedalmond;
+
+}
+
+#user_records > tbody > tr > td:hover{
+    background-color: rgb(190, 206, 14);
+    color: aliceblue;
+}
+.boxcontainer{
+    position: relative;
+
+}
+.boxcontainer > div{
+    width: 100px;
+    height: 100px;
+    color: aliceblue;
+    padding: 3px;
+    position: absolute;
+    text-align: left;
+}
+
+.box1{
+    background-color: aquamarine;
+    left: 10px;
+    top: 10px;
+    transform: rotate(10deg);
+    z-index: -4;
+}
+.box2{
+    background-color: rgb(79, 188, 54);
+    left: 20px;
+    top: 20px;
+    transform: rotate(20deg);
+    z-index: -3;
+}
+.box3{
+    background-color: rgb(171, 22, 89);
+    left: 30px;
+    top: 30px;
+    transform: rotate(30deg);
+    z-index: -2;
+}
+.box4{
+    background-color: rgb(66, 137, 200);
+    left: 40px;
+    top: 40px;
+    transform: rotate(40deg);
+    z-index: -1;
+}
+footer{
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    color: aliceblue;
+
+}
