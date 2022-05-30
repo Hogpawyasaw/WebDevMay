@@ -37,6 +37,7 @@ li{
 }
 a{
     color: rgb(0, 0, 0);
+    text-decoration: none;
 }
 h2{
     width: 405px;
@@ -48,6 +49,7 @@ h2{
     width: 400px;
     height: 150px;
     padding-top: 30px;
+    border-radius: 30px;
 }
     /* end header related */
 
@@ -70,6 +72,26 @@ h2{
     justify-content: space-evenly;
 }
 
+    /* NavigationBar */
+nav{
+    float: left;
+    background-color: grey;
+    width: 150px;
+    height: 570px;
+    border-radius: 30px;
+    margin-left: 50px;
+}
+    
+nav > p{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav > ul{
+    padding: 0px;
+}
+    /* end navigationbar */
+
     /* 6 info boxes */
 .service1{
     background: grey;
@@ -78,6 +100,7 @@ h2{
     /* padding-top: 70px; */
     text-align: center;
     color: rgb(0, 0, 0);
+    border-radius: 30px;
 }
 .service2{
     background: grey;
@@ -86,6 +109,7 @@ h2{
     /* padding-top: 70px; */
     text-align: center;
     color: rgb(0, 0, 0);
+    border-radius: 30px;
 }
 .service3{
     background: grey;
@@ -94,6 +118,7 @@ h2{
     /* padding-top: 70px; */
     text-align: center;
     color: rgb(0, 0, 0);
+    border-radius: 30px;
 }
 .recentwork1{
     background: grey;
@@ -102,6 +127,7 @@ h2{
     /* padding-top: 70px; */
     text-align: center;
     color: rgb(0, 0, 0);
+    border-radius: 30px;
 }
 .recentwork2{
     background: grey;
@@ -110,6 +136,7 @@ h2{
     /* padding-top: 70px; */
     text-align: center;
     color: rgb(0, 0, 0);
+    border-radius: 30px;
 }
 .recentwork3{
     background: grey;
@@ -118,13 +145,16 @@ h2{
     /* padding-top: 70px; */
     text-align: center;
     color: rgb(0, 0, 0);
+    border-radius: 30px;
 }
     /* 6 info boxes */
 
 .twitterbox > p{
     background-color: grey;
     height: 80px;
-    width: 1560px;
+    width: 1460px;
+    border-radius: 30px;
+    text-align: center;
 }    
     /* end body related */
 
@@ -132,7 +162,7 @@ h2{
 footer{
     background-color: grey;
     width: 100%;
-    position: fixed;
+    position: sticky;
     bottom: 0;
     display: flex;
     justify-content: space-around;
@@ -143,9 +173,8 @@ footer > p{
     text-align: right;
 }
 .footerlist{
-    margin-right: 50px;
+    margin-right: 150px;
     margin-left: 0px;
     padding-left: 0px;
 }
-
     /* end footer related */
