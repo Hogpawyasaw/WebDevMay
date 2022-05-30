@@ -2,7 +2,8 @@ body{
     margin: 0px;
     padding: 0px;
 }
-/* header related */
+
+    /* header related */
 header{
     width: auto;
     background-color: rgb(184, 184, 184);
@@ -46,10 +47,11 @@ h2{
     margin: 0;
     width: 400px;
     height: 150px;
+    padding-top: 30px;
 }
-/* end header related */
+    /* end header related */
 
-/* body related */
+    /* body related */
 .boxcontainer{
     display: flex;
     flex-direction: column;
@@ -73,6 +75,7 @@ h2{
     background: grey;
     width: 400px;
     height: 200px;
+    /* padding-top: 70px; */
     text-align: center;
     color: rgb(0, 0, 0);
 }
@@ -80,6 +83,7 @@ h2{
     background: grey;
     width: 400px;
     height: 200px;
+    /* padding-top: 70px; */
     text-align: center;
     color: rgb(0, 0, 0);
 }
@@ -87,6 +91,7 @@ h2{
     background: grey;
     width: 400px;
     height: 200px;
+    /* padding-top: 70px; */
     text-align: center;
     color: rgb(0, 0, 0);
 }
@@ -94,6 +99,7 @@ h2{
     background: grey;
     width: 400px;
     height: 200px;
+    /* padding-top: 70px; */
     text-align: center;
     color: rgb(0, 0, 0);
 }
@@ -101,6 +107,7 @@ h2{
     background: grey;
     width: 400px;
     height: 200px;
+    /* padding-top: 70px; */
     text-align: center;
     color: rgb(0, 0, 0);
 }
@@ -108,18 +115,20 @@ h2{
     background: grey;
     width: 400px;
     height: 200px;
+    /* padding-top: 70px; */
     text-align: center;
     color: rgb(0, 0, 0);
 }
     /* 6 info boxes */
+
 .twitterbox > p{
     background-color: grey;
     height: 80px;
     width: 1560px;
 }    
-/* end body related */
+    /* end body related */
 
-/* footer related */
+    /* footer related */
 footer{
     background-color: grey;
     width: 100%;
@@ -139,4 +148,4 @@ footer > p{
     padding-left: 0px;
 }
 
-/* end footer related */
+    /* end footer related */
