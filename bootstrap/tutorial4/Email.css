@@ -1,0 +1,22 @@
+    /* to center/move vertical image */
+.carousel-item > img{
+    height: 400px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.webdev-body{
+    background-image: url(https://marmotamaps.com/de/fx/wallpaper/download/faszinationen/Marmotamaps_Wallpaper_Berchtesgaden_Desktop_1920x1080.jpg);
+    
+}
+.intec-body{
+    background-image: url(https://img.freepik.com/vecteurs-libre/paysage-nuit-lac-montagnes-arbres-cote-illustration-dessin-anime-vecteur-scene-nature-foret-coniferes-au-bord-riviere-rochers-lune-etoiles-dans-ciel-sombre_107791-8253.jpg?w=2000);
+}
+
+.webdev-footer{
+    background-color: rgb(19, 12, 75);
+    
+}
+.webdev-header{
+    background-color: rgb(19, 12, 75);
+}
