@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <div class="container">
+        <div class="input-group">
+            <label class="input-group-text">username</label>
+            <input type="text" class="form-control"/>
+        </div>
+        <div class="input-group">
+            <label class="input-group-text">password</label>
+            <input type="password" class="form-control">
+            <input type="color" class="form-control-color">
+        </div>
+
+        <select class="form-select">
+            <option hidden>Select your fav color</option>
+            <option value="red" class="bg-danger text-light">Red</option>
+            <option value="blue" class="bg-primary text-light">Blue</option>
+            <option value="green" class="bg-success text-light">Green</option>
+            <option value="yellow" class="bg-warning text-light">Yellow</option>
+            <option value="black" class="bg-dark text-light">Black</option>
+        </select>
+
+        <div class="checkboxes d-flex justify-content-end">
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" name="checkbox-1"/>
+                <label class="form-check-label">checkbox 1</label>
+                <input type="checkbox" class="form-check-input" name="checkbox-2"/>
+                <label class="form-check-label">checkbox 2</label>
+            </div>
+        </div>
+
+        <div class="input-group">
+            <label class="input-group-text">your comment</label>
+            <textarea class="form-control text-end" rows="2" placeholder="your text here"></textarea>
+        </div>
+
+        
+        
+
+        <button class="btn btn-primary">enter</button>
+    </div>
+</body>
+</html>
