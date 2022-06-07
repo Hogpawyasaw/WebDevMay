@@ -1,0 +1,46 @@
+ul{
+    text-align: center;
+    list-style-type: none;
+    background-color: rgb(100, 100, 236);
+    margin: 0px;
+    padding: 5px;
+}
+li{
+    display: inline;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#home-title{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: underline 1px;
+    padding: 8px;
+    padding-bottom: 10px;
+}
+h3{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: underline 1px;
+    padding: 8px;
+    padding-bottom: 10px;
+}
+img{
+    float: left;
+    padding: 5px;
+}
+#blog-section{
+    display: flex;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: underline 1px;
+    padding: 8px;
+    padding-bottom: 10px;
+}

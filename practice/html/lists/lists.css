@@ -1,0 +1,12 @@
+ul{
+    background-color: aqua;
+    text-align: center;
+}
+ol{
+    background-color: aquamarine;
+}
+li{
+    background-color: bisque;
+    list-style-type: none;
+    color: blue;
+}
