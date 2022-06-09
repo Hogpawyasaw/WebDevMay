@@ -14,7 +14,7 @@
 
 // const company = "google";
 // // const company = "facebook"; cennot be re-declared
-// // company = "facebook"; cannot be changed
+// // company = "facebook"; cannot be updated
 // console.log (company);
 
 // console.log(user) mistake
@@ -169,7 +169,7 @@ console.log(result3)
 var StudentRule1 = studentage >= 18; //true
 var StudentRule2 = studentmoney >=1; //false
 var GetResult = StudentRule1 && StudentRule2;
-result4 = GetResult ? "Yes he can": "No he cannot"
+result4 = GetResult ? "Yes he can": "No he cannot";
 
 result4 = StudentRule1 ? (StudentRule2) ? "Yes he can drink":                                                                                                                                                                                                                        "No he needs money": "No he is not old enough";
 
