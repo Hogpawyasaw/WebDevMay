@@ -11,25 +11,29 @@
 <body>
     <div class="container">
         <h1 class="bg-dark text-light text-center font-monospace">What weather type is it?</h1>
+        <h3 class="p-3 text-center">What is the weather like?</h3>
         <div class="text-center p-3">
-            <h3 class="p-3">What is the weather like?</h3>
-            <!-- yes output -->
+            <div class="numbergenerator text-center">
+                <p id="degrees"></p>
+                <button type="button" onclick="document.getElementById('degrees').innerHTML = getRndInteger(0,30)" class="btn btn-primary">Klick for random degree</button>
+            </div>
+            <br>
             <textarea id="weatheroutput" class="text-center text-decoration-underline" rows="3" cols="30"></textarea>
         </div>
         <div class="text-center p-3">
-            <button type="button" class="btn btn-outline-danger btn-lg" onclick="myFunction(weatherTypeRule0)">is it < 28 degrees?</button>
-            <button type="button" class="btn btn-outline-info btn-lg" onclick="myFunction()">is it < 2 degrees?</button>
-            <button type="button" class="btn btn-outline-success btn-lg" onclick="myFunction()">is it < 10 degrees?</button>
-            <button type="button" class="btn btn-outline-warning btn-lg" onclick="myFunction()">is it < 18 degrees?</button>
+            <button type="button" id="summery" class="btn btn-outline-danger btn-lg" onclick="">is it > 28 degrees?</button>
+            <button type="button" id="wintery" class="btn btn-outline-info btn-lg" onclick="">is it > 2 degrees?</button>
+            <button type="button" id="fally" class="btn btn-outline-success btn-lg" onclick="">is it > 10 degrees?</button>
+            <button type="button" id="springy" class="btn btn-outline-warning btn-lg" onclick="">is it > 18 degrees?</button>
         </div>
         <div class="text-center">
-            <button type="button" class="btn btn-outline-danger btn-lg" onclick="myFunction()">is it not > 28 degrees?</button>
-            <button type="button" class="btn btn-outline-info btn-lg" onclick="myFunction()">is it not > 2 degrees?</button>
-            <button type="button" class="btn btn-outline-success btn-lg" onclick="myFunction()">is it not > 10 degrees?</button>
-            <button type="button" class="btn btn-outline-warning btn-lg" onclick="myFunction()">is it not > 18 degrees?</button>
+            <button type="button" id="summern" class="btn btn-outline-danger btn-lg" onclick="">is it not < 28 degrees?</button>
+            <button type="button" id="wintern" class="btn btn-outline-info btn-lg" onclick="">is it not < 2 degrees?</button>
+            <button type="button" id="falln" class="btn btn-outline-success btn-lg" onclick="">is it not < 10 degrees?</button>
+            <button type="button" id="springn" class="btn btn-outline-warning btn-lg" onclick="">is it not < 18 degrees?</button>
         </div>
     </div>
-    
+
 
 
     <script src="ex.js"></script>

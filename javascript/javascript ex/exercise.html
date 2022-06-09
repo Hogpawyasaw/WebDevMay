@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+<body>
+    <!-- same/not same number -->
+    <div class="container">
+        <h1 class="bg-dark text-light text-center font-monospace text-decoration-underline p-2">Weather:</h1>
+        <div id="degreesdiff">
+            <h3 class="text-center bg-dark bg-opacity-50 p-2">Are they the same C&#176;?</h3>
+            <div class="row">
+                <h5 id="actualdegrees" class="col-4 text-end">15 C&#176;</h5>
+                <h6 class="col-4 text-center">-</h6>
+                <h5 id="degrees1" class="col-4">12 C&#176;</h5>
+            </div>
+            <div class="text-center">
+                <textarea id="enddegrees" class="p-1 text-center"></textarea><br>
+                <button onclick="buttonChange2()">Find out!</button>
+            </div>
+        </div>
+    </div>
+    <!-- end same/not same number -->
+    <!-- 15/12 -->
+    <div class="container text-center">
+        <h1 class="bg-dark text-light text-center font-monospace text-decoration-underline p-2">12 or 15?</h1>
+        <h5 id="changeme">15 C&#176;</h5>
+        <button onclick="buttonChange1()">15/12 C&#176;</button>
+    </div>
+    <!-- end 15/12 -->
+    <script src="exercise.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+</html>
