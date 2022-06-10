@@ -10,7 +10,7 @@
             BMICalc1()
         //End regular function
         //Arrow function
-        var nettoSalaryCalc2 = (n1, n2, n3) => n1/ (n2*n3)
+        var BMICalc2 = (n1, n2, n3) => n1/ (n2*n3)
         console.log(85 / (183 * 183))
         //End arrow function
     //End simplified function
