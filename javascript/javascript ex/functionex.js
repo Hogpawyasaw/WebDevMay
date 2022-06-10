@@ -10,24 +10,24 @@
             BMICalc1()
         //End regular function
         //Arrow function
-        var BMICalc2 = (n1, n2, n3) => n1/ (n2*n3)
+        var BMICalc2 = (n1, n2, n3) => n1/(n2*n3)
         console.log(85 / (183 * 183))
         //End arrow function
     //End simplified function
     //More complex function
         //Regular function
-            function BMICalc2(){
+            function BMICalc3(){
                 var user = {
                     name : "Jack",
                     age : 45,
                     weight : 85,
                     height : 183
                 };
-                BMICalculation2 = user.weight / (user.height * user.height);
-                BMIOutput2 = user.weight / (user.height * user.height) ? `Because ${user.name}'s height is ${user.height} and weight is ${user.weight} his BMI is ${BMICalculation2}.`: `The information introduced is not correct.`
+                BMICalculation3 = user.weight / (user.height * user.height);
+                BMIOutput2 = user.weight / (user.height * user.height) ? `Because ${user.name}'s height is ${user.height} and weight is ${user.weight} his BMI is ${BMICalculation3}.`: `The information introduced is not correct.`
                 console.log(BMIOutput2);
             }
-            BMICalc2()
+            BMICalc3()
         //End regular version
     //End more complex version
 //End BMI calculation
