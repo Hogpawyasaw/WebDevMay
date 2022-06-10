@@ -1,6 +1,6 @@
 //BMI calculation
     //Simplified function
-        //Reguler function
+        //Regular function
             function BMICalc1(){
                 var weight = 85;
                 var height = 183;
