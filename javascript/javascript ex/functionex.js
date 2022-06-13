@@ -3,7 +3,7 @@
         //Regular function
             function BMICalc1(){
                 var weight = 85;
-                var height = 183;
+                var height = 1.83;
                 BMIOutput1 = weight / (height * height);
                 console.log(BMIOutput1);
             }
@@ -11,7 +11,7 @@
         //End regular function
         //Arrow function
         var BMICalc2 = (n1, n2, n3) => n1/(n2*n3)
-        console.log(85 / (183 * 183))
+        console.log(85 / (1.83 * 1.83))
         //End arrow function
     //End simplified function
     //More complex function
@@ -36,13 +36,10 @@
 //Netto salary
     //Simplified function
         //Regular function
-            function nettoSalaryCalc1(){
-                bruto = 3500;
-                percent = 25;
-                nettoSalaryOutput1 = bruto * percent / 100;
-                console.log(nettoSalaryOutput1);
+            function nettoSalaryCalc1(netto, tax){
+                return netto * tax / 100;
             }
-            nettoSalaryCalc1();
+            console.log(nettoSalaryCalc1);
         //End function version
         //Arrow function
             var nettoSalaryCalc2 = (n1, n2, n3) => n1*n2/n3
