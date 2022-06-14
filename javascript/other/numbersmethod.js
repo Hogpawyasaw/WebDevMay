@@ -48,7 +48,7 @@ result = Number.isNaN(10/NaN);
 result = Number.isNaN("10"/"10");
 result = Number.isSafeInteger(10);
 var userInput = 10;
-if(Number.isInteger(userInput)){
+if(Number.parseInteger(userInput)){
     console.log("valid input")
 }
 else{
